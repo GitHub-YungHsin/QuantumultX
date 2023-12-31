@@ -1,0 +1,23 @@
+# 应用地址：https://raw.githubusercontent.com/GitHub-YungHsin/QuantumultX/main/Rules/Mate.list
+# > Meta
+HOST-SUFFIX, accountkit.com, Meta
+HOST-SUFFIX, cdninstagram.com, Meta
+HOST-SUFFIX, f8.com, Meta
+HOST-SUFFIX, facebookmail.com, Meta
+HOST-SUFFIX, fb.com, Meta
+HOST-SUFFIX, fb.me, Meta
+HOST-SUFFIX, fb.watch, Meta
+HOST-SUFFIX, fbaddins.com, Meta
+HOST-SUFFIX, fbcdn.net, Meta
+HOST-SUFFIX, fbsbx.com, Meta
+HOST-SUFFIX, fbworkmail.com, Meta
+HOST-SUFFIX, instagram.com, Meta
+HOST-SUFFIX, m.me, Meta
+HOST-SUFFIX, messenger.com, Meta
+HOST-SUFFIX, oculus.com, Meta
+HOST-SUFFIX, oculuscdn.com, Meta
+HOST-SUFFIX, readyatdawn.com, Meta
+HOST-SUFFIX, rocksdb.org, Meta
+HOST-SUFFIX, whatsapp.com, Meta
+HOST-SUFFIX, whatsapp.net, Meta
+HOST-KEYWORD, .facebook., Meta
