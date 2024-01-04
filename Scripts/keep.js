@@ -1,4 +1,4 @@
-const blackList = ["home", "dynamic_sports", "mall"];
+const blackList = ["home", "dynamic_sports", "personal"];
 let obj = JSON.parse($response.body);
 
 obj.data.generalConfigs["AD.link.download.source"] = false;
