@@ -1,4 +1,4 @@
-const blackList = ["首页", "entry", "我"];
+const blackList = ["home", "entry", "mall"];
 let obj = JSON.parse($response.body);
 
 obj.data.generalConfigs["AD.link.download.source"] = false;
