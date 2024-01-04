@@ -3,21 +3,22 @@
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
+let obj = JSON.parse($response.body);
 
 if (url.includes("/x/resource/show/skin")) {
-  // 皮肤推送
-  if (body?.data?.common_equip) {
-    delete body.data.common_equip;
-  }
-} else if (url.includes("/x/resource/show/tab/v2")) {
-  // 底部选项卡
-  if (body?.data?.bottom?.length > 0) {
-    const sortLists = ["微博", "发现", "我"];
-    body.data.bottom = body.data.bottom
-      .filter((i) => sortLists?.includes(i?.name))
-      .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
-  }
-};
+    // 皮肤推送
+    if (obj?.data?.common_equip) {
+      delete obj.data.common_equip;
+    }
+  } else if (url.includes("/x/resource/show/tab/v2")) {
+    // 底部选项卡
+    if (obj?.data?.bottom?.length > 0) {
+      const sortLists = ["首页", "动态", "我的"];
+      obj.data.bottom = obj.data.bottom
+        .filter((i) => sortLists?.includes(i?.name))
+        .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
+    }
+}
 
 // 微博详情页菜单配置
 const itemMenusConfig = {
