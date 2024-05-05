@@ -64,7 +64,7 @@ if (url.includes("/x/resource/show/skin")) {
                   } else if (/user_center\/setting/g.test(i?.uri)) {
                     // 设置
                     newItems.push(i);
-                  } else if (/user_center\/manuscript_list/g.test(i?.uri)) {
+                  } else if (/uper/user_center\/manuscript_list/g.test(i?.uri)) {
                     // 稿件管理
                     newItems.push(i);
                   } else {
