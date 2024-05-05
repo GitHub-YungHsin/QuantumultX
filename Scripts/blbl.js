@@ -50,7 +50,7 @@ if (url.includes("/x/resource/show/skin")) {
       if (item?.style) {
         if (item?.style === 1 || item?.style === 2) {
           if (item?.title) {
-            if (item?.title === "创作中心" || item?.title === "推荐服务") {
+            if (item?.title === "推荐服务") {
               // 创作中心 推荐服务
               continue;
             } else if (item?.title === "更多服务") {
@@ -63,9 +63,6 @@ if (url.includes("/x/resource/show/skin")) {
                     newItems.push(i);
                   } else if (/user_center\/setting/g.test(i?.uri)) {
                     // 设置
-                    newItems.push(i);
-                  } else if (/uper\/user_center\/manuscript_list/g.test(i?.uri)) {
-                    // 稿件管理
                     newItems.push(i);
                   } else {
                     continue;
