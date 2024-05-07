@@ -1,7 +1,8 @@
 #!name=起点读书净化
 #!desc=过滤开屏广告；净化我的页面；起点读书投票、章末免费领取章节卡等书架置顶推广；发现上面的图标屏蔽
-#!desc=fmz200
+#!author=fmz200
 #!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/QiDian.png
+#!date=2024-05-07 10:00:00
 
 [Rewrite]
 # > 起点读书
